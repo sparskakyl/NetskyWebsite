@@ -44,23 +44,23 @@ a {
     font-size: 13px;
 }
 .ceo {
-    border: 5px solid #E91E63
+    border: 5px solid #e01e74
 }
 .manager {
-    border: 5px solid #843DA4
+    border: 5px solid #b469f0
 }
 #managers {
     max-width: 50em;
     margin: 0 auto
 }
 .admin {
-    border: 5px solid #195080
+    border: 5px solid #399ffd
 }
 .headadmin {
-    border: 5px solid #277ECD
+    border: 5px solid #0086ff
 }
 .mod {
-    border: 5px solid #25C059
+    border: 5px solid #2fbdac
 }
 .partner {
     border: 5px solid #E67E22
