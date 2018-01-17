@@ -2471,7 +2471,7 @@ a.box:active {
 .title span,
 .subtitle em,
 .subtitle span {
-    font-weight: 300;
+    font-weight: 400;
 }
 .title strong,
 .subtitle strong {
@@ -2517,7 +2517,7 @@ a.box:active {
 .subtitle {
     color: #4a4a4a;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.25;
 }
 .subtitle strong {
