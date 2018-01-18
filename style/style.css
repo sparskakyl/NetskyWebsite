@@ -8,6 +8,14 @@ html {
 p.strong {
     font-weight: 600;
 }
+
+h2.title {
+	color: #fff;
+}
+h2.title2 {
+	color: #000;
+	font-size: 30px;
+}
 body {
     background-color: #752385;
     min-height: 100%
