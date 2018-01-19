@@ -73,3 +73,73 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/aerofusion
 
 ==================================================================
+
+==================================================================
+https://keybase.io/dnomaid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://netskycommunity.me
+  * I am dnomaid (https://keybase.io/dnomaid) on keybase.
+  * I have a public key with fingerprint 394A 2A47 DA4D A12C 1940  2B0A 4109 704C 5B7E 5E40
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010c91f6235308488146f8d198f56160e3792a8177689b856f32b76e15c58cb7b20a",
+      "fingerprint": "394a2a47da4da12c19402b0a4109704c5b7e5e40",
+      "host": "keybase.io",
+      "key_id": "4109704c5b7e5e40",
+      "kid": "01010c91f6235308488146f8d198f56160e3792a8177689b856f32b76e15c58cb7b20a",
+      "uid": "4d97a18bfdd85201eea8a7d543eae619",
+      "username": "dnomaid"
+    },
+    "service": {
+      "hostname": "netskycommunity.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1516404485,
+  "expire_in": 157680000,
+  "prev": "4d2aac347fe5cc38bbe529cf51907543b5ceda319ac9ad8d23006cb8c5ef20f1",
+  "seqno": 126,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIvAnicrVJfSBRBHL7zUsooTPtjV4QsYT0ctbO7szt7FkUpFkEPhoVZnjOzs7bp
+7Z6369UhVlTgQ0YUKdZDGCX9o5ekwKJ/JoJFBVdEkEVCfyAKStMerGjW6q3HZh6G
++c33fb/v+zH9M0KB3GDoQNWJxhsbVgQf3D3VFNhK9mY3C8Qx0kK0WahnkwdrMJjr
+xeotQ4gKIuCb6sBUJRnKIlIQAopqIgPoyIQqUEUma7qEEdA0FekEQdWUJaKpDEAK
+ESUakUQsRATTsutYMpG0bI/LyrqCJaxoBlYMDCQKdEWUiIgVIOqaqFBINAaZInLi
+Dsf1GdwcwS5bZjm8xi+xSXv/wP9n302/+xi6hgEipmEgKImAMYywZkBFZpipQPeB
+LkvaOM442rCdOOa8lojAiymLMn+ufpA/AJt5bn2aOvF4k2156WW8GBESScdzqNPA
+33d4XsKN+nwvnfAJuxiJ/ZGKEcs2+DA5I8WSruXYQhRwJPUsXxtAoCqioiAYEdju
+hJVkMctHQB5T5Mvvw1KTkSSMqaxoJoOUyogQBiWdmhDoosaDEUiZgWWgY6pjAxmS
+LIoqJYhCZkqiCQQ/XKPtcG1J5UZxHRd1rTobe01JJrT03dk2JRDMDeRkZ/nfLJA7
+Le/v51uDpgZaI6X3LsrdvenAyNkXB2dXh+9Vf8ALHibm1Z4J/zzSmTlacnjT6f5M
+ZW/O0vf51VcLccvb1MT2oNx37mDJ/fi+4uPGQFbj+XfuypO3emY9//Zo/rM5W+au
+7hhfMiP1BRxbubpveabzZc2zBU+u3xyqWVcxvWDmwjft3UNVs3sL5m7enb1vf7Bb
+7pp4PFZ0eedSuy/vx8f88mvlFcWFdt6Tkc+lP9NCWbSsK2wPrxpra+8p3Tu8sdbJ
+HhnZU1gkv74/Mf37I62nRh5/PXb1abE53Do60RAamrWfVKLQ2sGB8JWO5tYLqfXB
+SzWHClumjDZObV4c+pSQvg62LRoitx9kwqWvdv0CnT47LQ==
+=5Jpx
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dnomaid
+
+==================================================================
+
