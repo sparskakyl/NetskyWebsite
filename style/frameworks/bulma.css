@@ -511,8 +511,8 @@ table th {
 }
 .box {
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    border-radius: 0px;
+    box-shadow: 1px px #000;
     display: block;
     padding: 1.25rem;
 }
@@ -1628,7 +1628,6 @@ a.box:active {
 .input.is-inline,
 .textarea.is-inline {
     display: inline;
-    width: auto;
 }
 .textarea {
     display: block;
@@ -1722,7 +1721,6 @@ a.box:active {
     padding-left: 0.75em;
     padding-right: 0.75em;
     position: relative;
-    vertical-align: top;
     background-color: white;
     border: 1px solid #dbdbdb;
     color: #363636;

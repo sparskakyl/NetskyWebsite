@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%
+    
 }
 
 p.strong {
@@ -17,11 +18,11 @@ h2.title2 {
 	font-size: 30px;
 }
 body {
-    background-color: #752385;
+    background-color: #46126B;
     min-height: 100%
 }
 #content {
-    background-color: #752385;
+    background-color: #46126B;
 }
 .hero {
     background-position: center center;
@@ -30,8 +31,8 @@ body {
     background-size: cover;
 }
 #content-inner {
-    background: #752385;
-    max-width: 77em;
+    background: #46126B;
+    max-width: 75em;
     margin: 0 auto;
     padding: 2.5em 0
 }
@@ -39,10 +40,10 @@ a {
     transition: all .1s linear
 }
 .someone {
-    transition: transform .25s ease;
+    transition: transform .5s ease;
     border-radius: 100%;
     background-color: transparent;
-    border: 3px solid #7630A0;
+    border: 3px solid #23272A;
     display: inline-block;
     max-width: 100%
 }
@@ -60,10 +61,7 @@ a {
 .manager {
     border: 3px solid #5298ee
 }
-#managers {
-    max-width: 50em;
-    margin: 0 auto
-}
+
 .admin {
     border: 3px solid #b469f0
 }
@@ -76,13 +74,13 @@ a {
 
 .hero,
 nav {
-    background-color: rgba(132, 42, 150, 0.5)!important
+    background-color: #23272A!important
 }
 
 
 #netsky-hero-logo {
     box-shadow: 0px 0px 20px #a96fff;
-    transition: all 0.5s;
+    transition: all 0.3s;
     margin-bottom: 10px;
 }
 
@@ -114,11 +112,11 @@ nav strong:hover {
 }
 @media screen and (max-width: 768px) {
     .nav-menu.is-active {
-        background-color: #752385
+        background-color: #23272A;
     }
 }
 footer {
-    background-color: #842a96!important;
+    background-color: #23272A!important;
     width: 100%
 }
 footer * {
@@ -128,7 +126,7 @@ footer a {
     text-decoration: underline!important
 }
 footer a:hover {
-    color: # !important
+    color: #fff !important
 }
 
 @keyframes shadow-pulse {
