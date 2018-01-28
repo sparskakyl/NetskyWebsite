@@ -10,7 +10,7 @@ window.onload = function() {
       \"Name\": \"Netsky Community ShareX uploader\",\r\n\
       \"DestinationType\": \"ImageUploader, TextUploader, FileUploader\",\r\n\
       \"RequestType\": \"POST\",\r\n\
-      \"RequestURL\": \"https://upload.ncnetwork.me\",\r\n\
+      \"RequestURL\": \"https://upload.netskycommunity.me\",\r\n\
       \"FileFormName\": \"fileform\",\r\n\
       \"Arguments\": {\r\n\
         \"key\": \"{{KEY}}\",\r\n\
