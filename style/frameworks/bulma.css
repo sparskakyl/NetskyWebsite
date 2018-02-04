@@ -2451,6 +2451,10 @@ a.box:active {
     background-color: #5298ee;
     color: #000;
 }
+.tag.is-staff {
+    background-color: #fa5044;
+    color: #000;
+}
 .tag.is-medium {
     font-size: 1rem;
 }
