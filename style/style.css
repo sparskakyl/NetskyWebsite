@@ -8,7 +8,7 @@ p.strong {
 }
 
 .hero {
-    background-image: url(../img/header.png);
+    background-image: url(/img/header.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: stretch;
@@ -22,11 +22,11 @@ h2.title2 {
     font-size: 30px;
 }
 body {
-    background-color: #46126B;
+    background-color: #3b2464;
     min-height: 100% 
 }
 #content {
-    background-color: #46126B;
+    background-color: #3b2464;
 }
 .hero {
     background-position: center center;
@@ -35,8 +35,8 @@ body {
     background-size: cover;
 }
 #content-inner {
-    background: #46126B;
-    max-width: 75em;
+    background: #3b2464;
+    max-width: 70em;
     margin: 0 auto;
     padding: 2.5em 0 
 }
@@ -47,7 +47,6 @@ a {
     transition: transform .5s ease;
     border-radius: 100%;
     background-color: transparent;
-    border: 3px solid #23272A;
     display: inline-block;
     max-width: 100% 
 }
@@ -60,28 +59,24 @@ a {
     font-size: 13px;
 }
 .ceo {
-    border: 3px solid #1BBC9B 
+    border: 4px solid #1BBC9B 
 }
 .manager {
-    border: 3px solid #5298ee 
+    border: 4px solid #5298ee 
 }
 .admin {
-    border: 3px solid #b469f0 
+    border: 4px solid #b469f0 
 }
-.headadmin {
-    border: 3px solid #aa41ff 
-}
+
 .mod {
-    border: 3px solid #2DCC70 
+    border: 4px solid #2DCC70 
 }
-.staff {
-    border: 3px solid #fa5044 
-}
+
 .hero, nav {
-    background-color: #300048!important 
+    background-color: #483078!important 
 }
 #netsky-hero-logo {
-    box-shadow: 0px 0px 20px #a96fff;
+    box-shadow: 0px 0px 20px #9977a4;
     transition: all 0.0;
     margin-bottom: 10px;
 }
@@ -95,7 +90,7 @@ a {
     color: #efeaea!important 
 }
 .nav-toggle:hover {
-    background-color: #300048 !important 
+    background-color: #483078 !important 
 }
 .nav-toggle span {
     background-color: #fff!important 
@@ -108,11 +103,11 @@ a {
 }
 @media screen and (max-width: 768px) {
     .nav-menu.is-active {
-        background-color: #300048;
+        background-color: #483078;
    }
 }
 footer {
-    background-color: #300048!important;
+    background-color: #483078!important;
     width: 100% 
 }
 footer * {
@@ -126,12 +121,12 @@ footer a:hover {
 }
 @keyframes shadow-pulse {
     0% {
-        box-shadow: 0px 0px 20px #a96fff;
+        box-shadow: 0px 0px 20px #9977a4;
    }
     50% {
-        box-shadow: 0px 0px 50px #a96fff;
+        box-shadow: 0px 0px 50px #9977a4;
    }
     100% {
-        box-shadow: 0px 0px 20px #a96fff;
+        box-shadow: 0px 0px 20px #9977a4;
    }
 }

@@ -2,79 +2,58 @@
 layout: blank
 ---
 <section class="hero is-medium" >
-  <div id="hero-head">
-    <nav class="nav">
-      <div class="nav-left">
-        <a class="nav-item" href="/">
-          <p>Netsky Community</p>
-        </a>
-      </div>
-
-
-
-      <span class="nav-toggle">
-        <span></span>
-      <span></span>
-      <span></span>
-      </span>
-
-      <div class="nav-right nav-menu">
-        <a class="nav-item" href="/#about">
-          <i class="fas fa-question-circle fa-fw" style="margin-right: 5px;"></i> About
-        </a>
-        <a class="nav-item" href="/#staff">
-          <i class="fas fa-wrench fa-fw" style="margin-right: 5px;"></i> Staff
-        </a>
-        <a class="nav-item" href="/#cube">
-          <i class="fab fa-python fa-fw" style="margin-right: 5px;"></i> Cube
-        </a>
-        <a class="nav-item" href="/#sharex">
-          <i class="far fa-file-image fa-fw" style="margin-right: 5px;"></i> ShareX
-        </a>
-      
-        <a class="nav-item" target="_blank" href="https://twitter.com/NetskyCommunity">
-          <i class="fab fa-twitter fa-fw" style="margin-right: 5px;"></i> Twitter
-	      </a>
-
-      </div>
-    </nav>
-  </div>
-  <div class="hero-body">
-    <img src="/img/logo.png" alt="NetskyLogo" style="width: 200px; border-radius: 50%;" id="netsky-hero-logo">
-    <h2 class="title">Netsky Community</h2>
-    <a class="button is-danger" target="_blank" href="https://discord.me/netsky"> <i class="fas fa-external-link-alt fa-fw" style="margin-right: 5px;"></i> Join Netsky Community</a>   
-
-	
-
-  </div>
+   <div id="hero-head">
+      <nav class="nav">
+         <div class="nav-left">
+            <a class="nav-item" href="/">
+               <p>Netsky Community</p>
+            </a>
+         </div>
+         <span class="nav-toggle">
+         <span></span>
+         <span></span>
+         <span></span>
+         </span>
+         <div class="nav-right nav-menu">
+            <a class="nav-item" href="/#about">
+            <i class="fas fa-question-circle fa-fw" style="margin-right: 5px;"></i> About
+            </a>
+            <a class="nav-item" href="/#staff">
+            <i class="fas fa-wrench fa-fw" style="margin-right: 5px;"></i> Staff
+            </a>
+            <a class="nav-item" target="_blank" href="https://twitter.com/NetskyCommunity">
+            <i class="fab fa-twitter fa-fw" style="margin-right: 5px;"></i> Twitter
+            </a>
+         </div>
+      </nav>
+   </div>
+   <div class="hero-body">
+      <img src="/img/logo.png" alt="NetskyLogo" style="width: 200px; border-radius: 50%;" id="netsky-hero-logo">
+      <h2 class="title">Netsky Community</h2>
+      <a class="button is-danger" target="_blank" href="https://discord.me/netsky"> <i class="fas fa-external-link-alt fa-fw" style="margin-right: 5px;"></i> Join Netsky Community</a>   
+   </div>
 </section>
-
 {{ content }}
-
 <footer class="footer">
-  <div class="container" id="footer-inner">
-    <div class="content has-text-centered">
-      <p><a href="#"><i class="fa fa-angle-up"></i></a></p>
-      <p>
-        Copyright &copy; 2018 Netsky Community. All rights reserved.
-        <br> Site by <a href="https://aerofusion.net">AeroFusion</a>, <a href="https://dnomaid.co.uk">dnomaid</a>, and several <a href="https://github.com/NetskyCommunity/NetskyWebsite/graphs/contributors">contributors</a>.
-	      </p>
-		  </div>
-		  </div>
-		  </footer>
-
-
-
-   
+   <div class="container" id="footer-inner">
+      <div class="content has-text-centered">
+         <p><a href="#"><i class="fa fa-angle-up"></i></a></p>
+         <p>
+            Copyright &copy; 2017 - 2018 Netsky Community. All rights reserved.
+            <br> Site by <a href="https://aerofusion.net">AeroFusion</a>, <a href="https://dnomaid.co.uk">dnomaid</a>, and several <a href="https://github.com/NetskyCommunity/NetskyWebsite/graphs/contributors">contributors</a>.
+         </p>
+      </div>
+   </div>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-  $(".nav-toggle").click(function() {
-    $(".nav-menu").toggleClass('is-active');
-    $(".nav-toggle").toggleClass('is-active');
-  });
-
-  // Prevent embedding
-  if (window.top !== window.self) {
-    window.top.location.replace(window.self.location.href);
-  }
+   $(".nav-toggle").click(function() {
+     $(".nav-menu").toggleClass('is-active');
+     $(".nav-toggle").toggleClass('is-active');
+   });
+   
+   // Prevent embedding
+   if (window.top !== window.self) {
+     window.top.location.replace(window.self.location.href);
+   }
 </script>
