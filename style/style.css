@@ -46,7 +46,6 @@ a {
 .someone {
     transition: transform .5s ease;
     border-radius: 100%;
-    background-color: transparent;
     display: inline-block;
     max-width: 100% 
 }
@@ -59,17 +58,17 @@ a {
     font-size: 13px;
 }
 .ceo {
-    border: 4px solid #1BBC9B 
+    border: 4px solid #1dcda9 
 }
 .manager {
-    border: 4px solid #5298ee 
+    border: 4px solid #4faeff 
 }
 .admin {
-    border: 4px solid #b469f0 
+    border: 4px solid #c264fa 
 }
 
 .mod {
-    border: 4px solid #2DCC70 
+    border: 4px solid #43db7d 
 }
 
 .hero, nav {
