@@ -2436,16 +2436,16 @@ a.box:active {
     color: #000;
 }
 .tag.is-mod {
-    background-color: #e67e22;
+    background-color: #4fa0f3;
     color: #000;
 }
 .tag.is-ceo {
-    background-color: #c164fa;
+    background-color: #d664fa;
     color: #000;
 }
 
 .tag.is-manager {
-    background-color: #4faeff;
+    background-color: #b168ff;
     color: #000;
 }
 
