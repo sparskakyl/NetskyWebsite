@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100% 
+}
+p.strong {
+    font-weight: 600;
+}
+
+.hero {
+    background-image: url(/img/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+h2.title {
+    color: #fff;
+}
+h2.title2 {
+    color: #000;
+    font-size: 30px;
+}
+body {
+    background-color: #271e5a;
+    min-height: 100% 
+}
+#content {
+    background-color: #271e5a;
+}
+.hero {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+#content-inner {
+    background: #271e5a;
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 2.5em 0 
+}
+a {
+    transition: all .1s linear 
+}
+.someone {
+    transition: transform .5s ease;
+    border-radius: 100%;
+    display: inline-block;
+    max-width: 100% 
+}
+.someone:hover {
+    transform: scale(1.1) rotate(360deg) 
+}
+.columns .column {
+    max-width: 100%;
+    margin: auto;
+    font-size: 13px;
+}
+.ceo {
+    border: 4px solid #c164fa 
+}
+.manager {
+    border: 4px solid #4faeff 
+}
+.admin {
+    border: 4px solid #1abc9c 
+}
+
+.mod {
+    border: 4px solid #e67e22 
+}
+
+.hero, nav {
+    background-color: #30246c!important 
+}
+#netsky-hero-logo {
+    box-shadow: 0px 0px 20px #5540bf;
+    transition: all 0.0;
+    margin-bottom: 10px;
+}
+#netsky-hero-logo:hover {
+    animation: shadow-pulse 1s infinite ease;
+}
+.nav-item, nav a, nav strong {
+    color: #fff!important 
+}
+.nav-item:hover, nav a:hover, nav strong:hover {
+    color: #efeaea!important 
+}
+.nav-toggle:hover {
+    background-color:#30246c !important 
+}
+.nav-toggle span {
+    background-color: #fff!important 
+}
+.hero-body {
+    text-align: center 
+}
+.hero-body h1.title {
+    color: #efeaea!important 
+}
+@media screen and (max-width: 768px) {
+    .nav-menu.is-active {
+        background-color: #30246c;
+   }
+}
+footer {
+    background-color: #30246c!important;
+    width: 100% 
+}
+footer * {
+    color: #fff!important 
+}
+footer a {
+    text-decoration: underline!important 
+}
+footer a:hover {
+    color: #fff !important 
+}
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0px 0px 20px #5540bf;
+   }
+    50% {
+        box-shadow: 0px 0px 50px #5540bf;
+   }
+    100% {
+        box-shadow: 0px 0px 20px #5540bf;
+   }
+}
