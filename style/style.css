@@ -7,13 +7,14 @@ p.strong {
     font-weight: 600;
 }
 
-.hero {
+#header {
     background-image: url(/img/header.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: stretch;
     background-size: cover;
 }
+
 h2.title {
     color: #fff;
 }
@@ -28,12 +29,7 @@ body {
 #content {
     background-color: #271e5a;
 }
-.hero {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: stretch;
-    background-size: cover;
-}
+
 #content-inner {
     background: #271e5a;
     max-width: 70em;
@@ -43,13 +39,13 @@ body {
 a {
     transition: all .1s linear 
 }
-.someone {
+.staff {
     transition: transform .5s ease;
     border-radius: 100%;
     display: inline-block;
     max-width: 100% 
 }
-.someone:hover {
+.staff:hover {
     transform: scale(1.1) rotate(360deg) 
 }
 .columns .column {
@@ -63,23 +59,23 @@ a {
 .manager {
     border: 4px solid #a563ff 
 }
-.admin {
+.administrator {
     border: 4px solid #1abc9c 
 }
 
-.mod {
+.moderator {
     border: 4px solid #4fa0f3 
 }
 
 .hero, nav {
     background-color: #30246c!important 
 }
-#netsky-hero-logo {
+#netsky-logo {
     box-shadow: 0px 0px 20px #5540bf;
     transition: all 0.0;
     margin-bottom: 10px;
 }
-#netsky-hero-logo:hover {
+#netsky-logo:hover {
     animation: shadow-pulse 1s infinite ease;
 }
 .nav-item, nav a, nav strong {
