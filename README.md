@@ -1,5 +1,6 @@
-# [The NEO Lounge](https://theneolounge.club)
+# Netsky Community's Official Website
 
-The NEO Lounge's official website. Based off of [Bulma](https://bulma.io) and created by [AeroFusion](https://aerofusion.net)
+**This is [Netsky Community](https://netskycommunity.me)'s official Website. Uses Jekyll & Bulma.**
 
+**Be sure to to read the [LICENSE](https://github.com/NetskyCommunity/WebsiteV2/blob/master/LICENSE.md)**
 
