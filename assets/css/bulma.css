@@ -2192,19 +2192,19 @@ a.box:active {
 	color: #fff;
 }
 .tag.is-administrator {
-	background-color: #1abc9c;
+	background-color: #399ffd;
 	color: #fff;
 }
-/* .tag.is-headadministrator {
-	background-color: #2168ff;
+ .tag.is-headadministrator {
+	background-color: #0086ff;
 	color: #fff;
-} */
+} 
 .tag.is-success {
 	background-color: #23d160;
 	color: #fff;
 }
 .tag.is-moderator {
-	background-color: #4fa0f3;
+	background-color: #2fbdac;
 	color: #fff;
 }
 /* .tag.is-supervisor {
@@ -2212,11 +2212,11 @@ a.box:active {
 	color: #fff;
 } */
 .tag.is-ceo {
-	background-color: #d664fa;
+	background-color: #f03e78;
 	color: #fff;
 }
 .tag.is-manager {
-	background-color: #a563ff;
+	background-color: #b469f0;
 	color: #fff;
 }
 .tag.is-medium {

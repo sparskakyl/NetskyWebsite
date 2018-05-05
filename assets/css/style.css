@@ -68,22 +68,22 @@ a {
 	background-color: rgba(85,64,191,0);
 }
 .ceo {
-	border: 4px solid #d664fa
+	border: 4px solid #f03e78
 }
 .manager {
-	border: 4px solid #a563ff
+	border: 4px solid #b469f0
 }
-/*.headadministrator {
-	border: 4px solid #2168ff
-} */
+*.headadministrator {
+	border: 4px solid #0086ff
+} *
 .administrator {
-	border: 4px solid #1abc9c
+	border: 4px solid #399ffd
 }
 /* .supervisor {
 	border: 4px solid #1abc9c
 } */
 .moderator {
-	border: 4px solid #4fa0f3
+	border: 4px solid #2fbdac
 }
 .hero, nav {
 	background-color: transparent!important
