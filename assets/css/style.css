@@ -1,0 +1,170 @@
+* {
+	text-shadow: 2px 2px 15px rgba(0, 0, 0, 1);
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%
+}
+p.strong {
+	font-weight: 600;
+}   
+p {
+	color: #fff;
+}
+#header {
+	background-image: url(https://netskycommunity.me/assets/images/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+h2.title {
+	color: #fff;
+}
+h2.title2 {
+	color: #fff;
+	font-size: 30px;
+}
+h1.title {
+	color: #fff;
+}
+h3 {
+	color: #fff;
+}
+body {
+	min-height: 100%;
+}
+#content {
+	background-color: #181818;
+}
+.box, .button {
+	box-shadow: 0 0 .5rem #5540bf;
+	background-color: rgba(85,64,191,.08);
+}
+#content-inner {
+	background: #181818;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 2.5em 0
+}
+a {
+	transition: all .1s linear
+}
+.staff {
+	transition: transform .5s ease;
+	border-radius: 100%;
+	display: inline-block;
+	max-width: 100%;
+	
+}
+.staff:hover {
+	transform: rotate(360deg)
+}
+.columns .column {
+	max-width: 100%;
+	margin: auto;
+	font-size: 13px;
+	background-color: rgba(85,64,191,0);
+}
+.ceo {
+	border: 4px solid #f03e78
+}
+.manager {
+	border: 4px solid #b469f0
+}
+*.headadministrator {
+	border: 4px solid #0086ff
+} *
+.administrator {
+	border: 4px solid #399ffd
+}
+/* .supervisor {
+	border: 4px solid #1abc9c
+} */
+.moderator {
+	border: 4px solid #2fbdac
+}
+.hero, nav {
+	background-color: transparent!important
+}
+#netsky-logo {
+	margin-bottom: 10px;
+	border: 5px solid #5540bf;
+	transition: transform .75s ease;
+}
+#netsky-logo:hover {
+	transform: rotate(360deg)
+}
+.nav-item, nav a, nav strong {
+	color: #fff!important
+}
+.nav-item:hover, nav a:hover, nav strong:hover {
+	color: #efeaea!important
+}
+.nav-toggle:hover {
+	background-color: transparent!important
+}
+.nav-toggle span {
+	background-color: #fff!important
+}
+.hero-body {
+	text-align: center
+}
+.hero-body h1.title {
+	color: #fff!important
+}
+@media screen and (max-width: 768px) {
+	.nav-menu.is-active {
+		background-color: transparent;
+	}
+}
+footer {
+	background-color: #222121!important;
+	width: 100%
+}
+footer * {
+	color: #fff!important
+}
+footer a {
+	text-decoration: underline!important
+}
+footer a:hover {
+	color: #fff !important
+}
+
+.rule {
+	width: 90%;
+	max-width: 50em;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 2em;
+	color: #fff;
+	background-color: rgba(85,64,191,.1);
+	border-radius: 3px;
+	box-shadow: 0 0 .5rem #5540bf;	
+	transition: all 0.25s;
+	text-align: left;
+  }
+  
+  #rules {
+text-align: center;
+  }
+  .rule::content {
+	margin: 0 auto;
+  }
+  
+  .rule:hover {
+	background-color: rgba(85,64,191,.3);
+	transform: scale(1.05);
+  }
+  
+  .rule strong {
+	color: #fff;
+  }
+  
+  .rule a {
+	color: #fff;
+	text-decoration: underline;
+  }
+
