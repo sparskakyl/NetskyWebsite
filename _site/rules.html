@@ -1,11 +1,34 @@
----
-layout: default
-title: Rules
-icon: fas fa-fw fa-gavel
-permalink: /rules
----
+<!DOCTYPE html>
+<html>
 
-<section id="rules">
+<head>
+  <meta charset="utf-8">
+<title>Rules &mdash; Netsky Community</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/wing.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+  <a href="/" ><i class="fas fa-fw fa-home"></i> Home/Staff</a>
+  <a href="/rules" class="c"><i class="fas fa-fw fa-gavel"></i> Rules</a>
+  <a href="/partner" ><i class="fas fa-fw fa-link"></i> Partners</a>
+  <a href="https://twitter.com/NetskyCommunity"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
+  <a href="https://discord.io/Netsky"><i class="fab fa-fw fa-discord"></i> Join</a>
+
+</nav>
+
+<h1><img src="https://netskycommunity.me/assets/images/netsky.png" alt="" id="header-logo"> Netsky Community</h1>
+<h2><i class="fas fa-fw fa-gavel"></i> Rules</h2>
+
+  </header>
+
+  <main>
+    <section id="rules">
   <ul>
 
     <li class="rule">
@@ -74,3 +97,31 @@ permalink: /rules
 
   </ul>
 </section>
+
+  </main>
+
+  <footer>
+    <h3>There are <span id="members-count">FETCHING</span> members online!</h3>
+
+<p>&copy; Netsky Community</p>
+<p>A <a href="https://dnomaid.co.uk">dnomaid</a> site &mdash; <a href="https://github.com/NetskyCommunity/">GitHub</a></p>
+
+
+<script>
+  const req = new XMLHttpRequest();
+  req.open('GET', 'https://discordapp.com/api/guilds/265970458338394123/widget.json', true);
+  req.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var json = JSON.parse(this.responseText);
+      document.getElementById('members-count').innerHTML = json.members.length;
+    } else {
+      document.getElementById('members-count').innerHTML = 'DISCORD API ERROR';
+    }
+  };
+  req.send();
+</script>
+
+  </footer>
+</body>
+
+</html>

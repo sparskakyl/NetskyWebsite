@@ -1,0 +1,19 @@
+<h3>There are <span id="members-count">FETCHING</span> members online!</h3>
+
+<p>&copy; Netsky Community</p>
+<p>A <a href="https://dnomaid.co.uk">dnomaid</a> site &mdash; <a href="https://github.com/NetskyCommunity/">GitHub</a></p>
+
+
+<script>
+  const req = new XMLHttpRequest();
+  req.open('GET', 'https://discordapp.com/api/guilds/265970458338394123/widget.json', true);
+  req.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var json = JSON.parse(this.responseText);
+      document.getElementById('members-count').innerHTML = json.members.length;
+    } else {
+      document.getElementById('members-count').innerHTML = 'DISCORD API ERROR';
+    }
+  };
+  req.send();
+</script>

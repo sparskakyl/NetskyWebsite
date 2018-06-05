@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+<title>Partner &mdash; Netsky Community</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/wing.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+  <a href="/" ><i class="fas fa-fw fa-home"></i> Home/Staff</a>
+  <a href="/rules" ><i class="fas fa-fw fa-gavel"></i> Rules</a>
+  <a href="/partner" class="c"><i class="fas fa-fw fa-link"></i> Partners</a>
+  <a href="https://twitter.com/NetskyCommunity"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
+  <a href="https://discord.io/Netsky"><i class="fab fa-fw fa-discord"></i> Join</a>
+
+</nav>
+
+<h1><img src="https://netskycommunity.me/assets/images/netsky.png" alt="" id="header-logo"> Netsky Community</h1>
+<h2><i class="fas fa-fw fa-link"></i> Partner</h2>
+
+  </header>
+
+  <main>
+    <section id="partner">
+  <p>In order to partner with Netsky Community, your server must abide by some rules & regulations.<br>Please be sure to keep these in mind while applying for a partnership.</p>
+
+  <ul>
+
+    <li class="rule">
+      <h3>Discord Terms of Service</h3>
+      <p> Your server must follow the Discord Terms of Service & Community Guidelines.<br>If your server is found violating these, your server may also be reported to Discord.</p>
+    </li>
+
+    <li class="rule">
+      <h3>Member Counts</h3>
+      <p>Your server must have at least 50 members, not including bots.<br>This does not always apply, if you are given an exception.</p>
+    </li>
+
+    <li class="rule">
+      <h3>Partner Channel</h3>
+      <p>You must put the announcement in a specific partnerships channel.<br>This needs to be a seperate channel, not an updates channel to avoid it being overrun.</p>
+    </li>
+
+    <li class="rule">
+      <h3>Pings</h3>
+      <p>A ping/mention is NOT required, but it can be mutually agreed on.</p>
+    </li>
+
+  </ul>
+</section>
+
+  </main>
+
+  <footer>
+    <h3>There are <span id="members-count">FETCHING</span> members online!</h3>
+
+<p>&copy; Netsky Community</p>
+<p>A <a href="https://dnomaid.co.uk">dnomaid</a> site &mdash; <a href="https://github.com/NetskyCommunity/">GitHub</a></p>
+
+
+<script>
+  const req = new XMLHttpRequest();
+  req.open('GET', 'https://discordapp.com/api/guilds/265970458338394123/widget.json', true);
+  req.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var json = JSON.parse(this.responseText);
+      document.getElementById('members-count').innerHTML = json.members.length;
+    } else {
+      document.getElementById('members-count').innerHTML = 'DISCORD API ERROR';
+    }
+  };
+  req.send();
+</script>
+
+  </footer>
+</body>
+
+</html>
