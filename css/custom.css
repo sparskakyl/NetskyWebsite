@@ -1,0 +1,232 @@
+/** General Layout **/
+
+body {
+    background-color: #f3f3f3;
+    min-height: 100%;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 75em;
+    margin: 0 auto;
+    color: #333;
+}
+
+.hero {
+    background: url(../img/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.content-inner {
+    background: #f3f3f3;
+    max-width: 65em;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.columns .column {
+    max-width: 100%;
+    margin: auto;
+    font-size: 13px;
+}
+
+.box {
+    text-align: center;
+    max-width: 65em;
+}
+
+footer {
+    background-color: #d3194f !important;
+    width: 100%;
+    text-align: center;
+    color: #f3f3f3;
+    padding: 3em !important;
+}
+
+/** Font Styles **/
+
+h2.title {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+h2.description {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a.link {
+    color: #f3f3f3;
+    transition: all .1s linear;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+a.link:hover {
+    color: #ccc;
+}
+
+.hero-body {
+    text-align: center;
+}
+
+.hero-body h1.title {
+    color: #f3f3f3;
+}
+
+.box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px #d3194f;
+    color: #333;
+    display: block;
+    padding: 1rem;
+}
+
+.role {
+    font-size: 14px;
+    color: #f3f3f3;
+}
+
+.footer-link {
+    color: #f3f3f3;
+    transition: all .1s linear;
+    text-decoration: underline !important;
+}
+
+.footer-link:hover {
+    color: #ccc;
+}
+
+/** Navbar Styling **/
+
+a.navbar-item {
+    color: #f3f3f3;
+    background-color: transparent;
+    transition: all .1s linear
+}
+
+a.navbar-item:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    color: #f3f3f3;
+    background-color: transparent;
+}
+
+.navbar-toggle:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-burger span {
+    background-color: #f3f3f3;
+}
+
+.navbar-burger:hover {
+    background-color: transparent;
+    color: #f3f3f3;
+}
+
+.navbar-menu.is-active {
+    background-color: transparent;
+    color: #f3f3f3;
+}
+
+.navbar-menu.is-active:hover {
+    background-color: transparent;
+    color: #f3f3f3;
+}
+
+.navbar-icons {
+    margin-right: 5px;
+}
+
+/** Staff List & Logos **/
+
+.staff {
+    transition: .5s ease;
+    border-radius: 100%;
+    display: inline-block;
+    max-width: 10em;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.staff:hover {
+    transform: rotate(360deg);
+}
+
+.moderator {
+    border: 4px solid #2fbdac;
+}
+
+.administrator {
+    border: 4px solid #399ffd;
+}
+
+.headadministrator {
+    border: 4px solid #0086ff;
+}
+
+.manager {
+    border: 4px solid #ba1da1;
+}
+
+.owner {
+    border: 4px solid #f03e78;
+}
+
+/** Other Styling **/
+
+.netsky-logo {
+    border: 3px solid #f3f3f3;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.netsky-logo:hover {
+    box-shadow: 0px 0px 20px #d3194f;
+}
+
+.members {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.membercount-icon {
+    color: #333;
+    transition: all 0.2s;
+}
+
+.membercount-icon:hover {
+    text-align: center;
+    color: #d3194f;
+}
