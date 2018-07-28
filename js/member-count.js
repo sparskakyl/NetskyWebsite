@@ -9,4 +9,4 @@ R.onreadystatechange = function () {
 R.send();
 
 /** Script created by Draco (https://twitter.com/DracoZ12). **/
-/** Handled by the Discord API. Therefore, it will not work online or if the API is down. **/
+/** Handled by the Discord API. Therefore, it will not work offline or if the API is down. **/
