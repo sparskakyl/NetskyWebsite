@@ -44,7 +44,7 @@ body {
 }
 
 footer {
-    background-color: #d3194f !important;
+    background-color: #CF38A3 !important;
     width: 100%;
     text-align: center;
     color: #f3f3f3;
@@ -93,7 +93,7 @@ a.link:hover {
 .box {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0px 0px 2px #d3194f;
+    box-shadow: 0px 0px 2px #CF38A3;
     color: #333;
     display: block;
     padding: 1rem;
@@ -207,7 +207,7 @@ a.navbar-item:hover {
 }
 
 .netsky-logo:hover {
-    box-shadow: 0px 0px 20px #d3194f;
+    box-shadow: 0px 0px 20px #CF38A3;
 }
 
 .members {
@@ -223,5 +223,5 @@ a.navbar-item:hover {
 
 .membercount-icon:hover {
     text-align: center;
-    color: #d3194f;
+    color: #CF38A3;
 }
