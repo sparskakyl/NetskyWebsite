@@ -5386,27 +5386,27 @@ a.tag:hover {
 }
 
 .tag.is-moderator {
-  background-color: #2fbdac;
+  background-color: #39cab9;
   color: #fff;
 }
 
-.tag.is-administrator {
-  background-color: #399ffd;
+.tag.is-council {
+  background-color: #2eaaff;
   color: #fff;
 }
 
-.tag.is-headadministrator {
-  background-color: #0086ff;
+.tag.is-executive {
+  background-color: #0096ff;
   color: #fff;
 }
 
-.tag.is-manager {
-  background-color: #ba1da1;
+.tag.is-director {
+  background-color: #f76b6c;
   color: #fff;
 }
 
 .tag.is-owner {
-  background-color: #f03e78;
+  background-color: #e74b84;
   color: #fff;
 }
 
