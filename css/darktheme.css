@@ -1,0 +1,21 @@
+body {
+    background: #404040;
+}
+
+.content-inner {
+    background: #404040;
+}
+
+.box {
+    background: #4d4d4d;
+    color: white;
+    box-shadow: 0px 0px 2px #252525;
+}
+
+.title {
+    color: white;
+}
+
+.membercount-icon {
+    color: white;
+}
